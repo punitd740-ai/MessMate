@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build output
+client/dist/
+dist/
+
+# Environment and sensitive keys
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Local database store
+server/data/
+*.json.bak
+
+# Debug logs
+*.log
+logs/
+
+# Git installation directory (local tool binaries)
+Git/
+git/
+
+# Compiled demo binaries
+demo.exe
+*.obj
+*.pdb
